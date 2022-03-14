@@ -1,0 +1,36 @@
+<%- include('partials/header'); -%>
+    <h1>
+
+    </h1>
+    <div class="messageSettings ">
+        <table class="table table-inverse tstyle">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% messages.forEach(item=>{ %>
+                    <tr>
+                        <td>
+                            <%=item.id%>
+                        </td>
+                        <td>
+                            <%= item.username %>
+                        </td>
+                        <td>
+                            <%= item.country %>
+                        </td>
+                        <td>
+                            <%= item.message %>
+                        </td>
+                    </tr>
+                    <% }) %>
+            </tbody>
+        </table>
+    </div>
+
+    <%- include('partials/footer'); -%>

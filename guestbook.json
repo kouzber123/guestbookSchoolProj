@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "username": "New Message test",
+    "country": "Finland",
+    "date": "Monday, 14 March 2022 at 16:35:17 Eastern European Standard Time",
+    "message": "Hello"
+  },
+  {
+    "id": "2",
+    "username": "Ajax message test",
+    "country": "Finland",
+    "date": "Monday, 14 March 2022 at 16:35:40 Eastern European Standard Time",
+    "message": "hello"
+  },
+  {
+    "id": "3",
+    "username": "Tom",
+    "country": "Japan",
+    "date": "Monday, 14 March 2022 at 16:36:47 Eastern European Standard Time",
+    "message": "今日はも..."
+  }
+]
